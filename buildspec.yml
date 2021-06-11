@@ -18,7 +18,7 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - echo $_PROJECT_NAME
-      - echo $AWS_ACCOUNT_ID
+      - echo $AWS_ACCOUNT_ID 
       - echo $AWS_DEFAULT_REGION
       - echo $CODEBUILD_RESOLVED_SOURCE_VERSION
       - echo start command
