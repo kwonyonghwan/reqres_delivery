@@ -14,7 +14,7 @@ phases:
       - echo Logging in to Amazon ECR...
       - echo $IMAGE_REPO_NAME
       - echo $AWS_ACCOUNT_ID
-      - echo $AWS_DEFAULT_REGIONhttps://github.com/kwonyonghwan/reqres_products/blob/master/buildspec.yml
+      - echo $AWS_DEFAULT_REGIONhttps://github.com/kwonyonghwan/reqres_delivery/blob/master/buildspec.yml
       - echo $CODEBUILD_RESOLVED_SOURCE_VERSION
       - echo start command
       - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
