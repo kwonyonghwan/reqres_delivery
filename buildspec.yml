@@ -1,7 +1,7 @@
 version: 0.2
 
 env:
-  variables:
+  variables: 
     IMAGE_REPO_NAME: "user06-delivery"
 
 phases:
